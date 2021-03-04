@@ -52,6 +52,15 @@ h4 {
     letter-spacing: 0.25px;
 }
 
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.25px;
+}
+
+
+
 img {
     width: 100%;
     overflow: hidden;
@@ -146,7 +155,7 @@ html {
     margin: 40px 0px 60px 0px;
 }
 
-.menu .author-content h4 {
+.menu .author-content h4 h5 {
     margin-bottom: 0px;
 }
 
