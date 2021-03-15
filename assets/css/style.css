@@ -19,7 +19,6 @@ body {
     z-index: 1000;
     clip-path: circle(85%);
     transition: clip-path 1s;
-    perspective: 1000px;
 }
 
 
