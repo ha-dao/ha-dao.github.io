@@ -39,35 +39,35 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: filla 2s ease-in-out infinite alternate forwards 0.7s;
+    animation: filla 1s ease-in-out infinite alternate forwards 0.7s;
     z-index: 1001;
 }
 
 #Logo path:nth-child(1) {
     stroke-dasharray: 150;
     stroke-dashoffset: 150;
-    animation: line-anim 2s ease-in-out infinite alternate forwards 0.1s;
+    animation: line-anim 1s ease-in-out infinite alternate forwards 0.1s;
  
 }
 
 #Logo path:nth-child(2) {
     stroke-dasharray: 320;
     stroke-dashoffset: 320;
-    animation: line-anim 2s ease-in-out infinite alternate forwards 0.3s;
+    animation: line-anim 1s ease-in-out infinite alternate forwards 0.3s;
 
 }
 
 #Logo path:nth-child(3) {
     stroke-dasharray: 290;
     stroke-dashoffset: 290;
-    animation: line-anim 2s ease-in-out infinite alternate forwards 0.5s;
+    animation: line-anim 1s ease-in-out infinite alternate forwards 0.5s;
   
 }
 
 #Logo path:nth-child(4) {
     stroke-dasharray: 360;
     stroke-dashoffset: 360;
-    animation: line-anim 2s ease-in-out infinite alternate forwards 0.7s;
+    animation: line-anim 1s ease-in-out infinite alternate forwards 0.7s;
 
 }
 
@@ -179,9 +179,6 @@ html {
     text-align: center;
 }
 
-.main-nav li:last-child a {
-    border-bottom: 2px solid #fff;
-}
 
 .main-nav li {
     display: block;
@@ -203,6 +200,7 @@ html {
 .main-nav li.active a {
     background: #fff;
     color: #336b87;
+    transform: translate3d(10px);
 }
 
 /* Sidebar Menu */
@@ -724,59 +722,13 @@ figure.snip1321.hover:after {
 
 
 
-
-
-
-/* Contact Me */
-
-section.contact-me {
-    border-bottom: none;
-}
-
-#contact input {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 40px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact input:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact textarea {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 180px;
-    max-height: 220px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact textarea:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact {
-    text-align: center;
-}
-
 @media screen and (max-width: 1680px) {
     .menu {
         left: 5%;
+    }
+
+    #Logo {
+        width: 300px;
     }
 
     .section {
@@ -801,6 +753,10 @@ section.contact-me {
     .menu .image {
         margin-top: 60px;
     }
+
+    #Logo {
+        width: 260px;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -821,6 +777,10 @@ section.contact-me {
     .right-image-post .white-button,
     .left-image-post .white-button {
         margin-top: 25px;
+    }
+
+    #Logo {
+        width: 200px;
     }
 
 }
@@ -883,6 +843,11 @@ section.contact-me {
     .responsive-nav {
         display: inline-block;
     }
+
+    #Logo {
+        width: 150px;
+    }
+
     .section {
         width: 94%;
         right: 3%;
