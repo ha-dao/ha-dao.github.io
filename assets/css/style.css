@@ -640,6 +640,8 @@ figure.snip1321 * {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+
+
 figure.snip1321 figcaption {
   top: 50%;
   left: 20px;
