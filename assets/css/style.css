@@ -21,7 +21,23 @@ body {
     transition: clip-path 1s;
 }
 
+/* Custom Scrollbar */
 
+
+::-webkit-scrollbar {
+    width: 16px;
+  }
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+::-webkit-scrollbar-thumb {
+    background: #336b87; 
+    border-radius: 10px;
+  }
+  
 
 /* Interactive Particles Background */
 
@@ -355,9 +371,7 @@ html {
     line-height: 60px;
 }
 
-
-
-
+/* E-Mail Copy to CLIPBOARD */
 
 .mailto-link {
 	position: relative;
@@ -403,8 +417,6 @@ html {
 .mailto-link:focus-within .mailto-message {
 	display: block;
 }
-
-
 
 
 
