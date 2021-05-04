@@ -253,7 +253,7 @@ body {
     right: 39px;
     z-index: 98;
     padding: 21px;
-
+    display: none;
     border-width: 3px;
     border-radius: 50%;
     border-color: #336b87;
@@ -558,54 +558,6 @@ html {
     line-height: 60px;
 }
 
-/* E-Mail Copy to CLIPBOARD */
-
-.mailto-link {
-	position: relative;
-	
-}
-.mailto-message {
-	top: 1px;
-	left: 50%;
-	margin-bottom: -5px;
-	transform: translate(-50%, -100%);
-	position: absolute;
-	display: none;
-	width: auto;
-	white-space: nowrap;
-	font-size: 12px;
-	background-color: black;
-	color: black;
-	padding: 2px 6px;
-	border-radius: 2px;
-}
-
-.mailto-message:after,
-.mailto-message:before {
-		content: '';
-	}
-
-.mailto-message:before {
-		top: 100%;
-		left: 50%;
-		border: solid transparent;
-		height: 0;
-		width: 0;
-		position: absolute;
-		pointer-events: none;
-		border-color: rgba(0, 0, 0, 0);
-		border-top-color: #000000;
-		border-width: 4px;
-		margin-left: -4px;
-	}
-
-.mailto-link:hover .mailto-message,
-.mailto-link:focus .mailto-message,
-.mailto-link:focus-within .mailto-message {
-	display: block;
-}
-
-
 /* Section */
 
 .section {
@@ -788,9 +740,10 @@ figure.snip1321 figcaption {
   z-index: 1;
 }
 figure.snip1321 h4 {
+    padding: 0 10px;
     margin-top: 15px;
   margin-bottom: 5px;
-  color: #232323;
+  color: #fff;
 }
 figure.snip1321 span {
     font-size: 14px;
@@ -803,17 +756,17 @@ figure.snip1321 span {
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
-  background-color: #336b87;
+  background-color: #fff;
   width: 40px;
   height: 40px;
   display: inline-block;
   text-align: center;
   line-height: 40px;
   border-radius: 5px;
-  color: #fff;
+  color: #336b87;
 }
 figure.snip1321:after {
-  background-color: #ffffff;
+  background-color: #336b87;
   position: absolute;
   content: "";
   display: block;
@@ -851,8 +804,8 @@ figure.snip1321.hover:after {
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
   opacity: 0.9;
-  
 }
+
 
 
 
@@ -975,12 +928,6 @@ figure.snip1321.hover:after {
     .isotope-item {
         width: 94%;
         margin: 3%;
-    }
-    .left-image-post img {
-        margin-bottom: 30px;
-    }
-    .right-image-post img {
-        margin-top: 30px;
     }
     .isotope-item {
         border-bottom: none;
