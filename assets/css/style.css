@@ -154,6 +154,33 @@ body {
 .progress.jblue .progress-left .progress-bar{
     animation: loading-5 0.4s linear forwards 1.8s;
 }
+.progress.wpblue .progress-bar{
+    border-color: #21759b;
+}
+.progress.wpblue .progress-value{
+    color: #21759b;
+}
+.progress.wpblue .progress-left .progress-bar{
+    animation: loading-5 0.4s linear forwards 1.8s;
+}
+.progress.elementorred .progress-bar{
+    border-color: #92003B;
+}
+.progress.elementorred .progress-value{
+    color: #92003B;
+}
+.progress.elementorred .progress-left .progress-bar{
+    animation: loading-5 0.4s linear forwards 1.8s;
+}
+.progress.shopifygreen .progress-bar{
+    border-color: #92003B;
+}
+.progress.shopifygreen .progress-value{
+    color: #92003B;
+}
+.progress.shopifygreen .progress-left .progress-bar{
+    animation: loading-5 0.4s linear forwards 1.8s;
+}
 @keyframes loading-1{
     0%{
         -webkit-transform: rotate(0deg);
