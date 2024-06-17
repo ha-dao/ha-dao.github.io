@@ -161,7 +161,7 @@ body {
     color: #21759b;
 }
 .progress.wpblue .progress-left .progress-bar{
-    animation: loading-1 0.4s linear forwards 1.8s;
+    animation: loading-8 0.4s linear forwards 1.8s;
 }
 .progress.elementorred .progress-bar{
     border-color: #92003B;
@@ -170,7 +170,7 @@ body {
     color: #92003B;
 }
 .progress.elementorred .progress-left .progress-bar{
-    animation: loading-1 0.4s linear forwards 1.8s;
+    animation: loading-8 0.4s linear forwards 1.8s;
 }
 .progress.shopifygreen .progress-bar{
     border-color: #92003B;
@@ -249,6 +249,16 @@ body {
     100%{
         -webkit-transform: rotate(20deg);
         transform: rotate(20deg);
+    }
+}
+@keyframes loading-8{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 }
 @media only screen and (max-width: 990px){
