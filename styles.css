@@ -245,7 +245,7 @@ svg, img {
 
 .webwrap .web-item div:nth-child(2) {
     height: 80px;
-    width: 100%;
+    width: calc(100% - padding);
     padding: 8px;
     margin: 16px 0;
     border-radius: 10px;
@@ -519,54 +519,6 @@ footer {
     text-align: center;
     padding: 40px 24px;
 }
-
-
-
-/*
-input[type="checkbox"] {
-    display: none;
-}
-
-label {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--primary-color);
-    color: var(--text-color);
-    cursor: pointer;
-    overflow: hidden;
-    z-index: 1;
-}
-
-label::before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--primary-color);
-    transform: translateX(-100%);
-    transition: transform 300ms ease;
-    z-index: -1;
-}
-
-label:hover::before {
-    transform: translateX(0);
-    background-color: var(--accent-color);
-}
-
-#page1:checked ~ .page1,
-#page2:checked ~ .page2,
-#page3:checked ~ .page3 {
-    background-color: var(--accent-color);
-    color: var(--background-color);
-}
-    */
-
 
     /* laptop responsive */
     @media (max-width: 1200px) {
